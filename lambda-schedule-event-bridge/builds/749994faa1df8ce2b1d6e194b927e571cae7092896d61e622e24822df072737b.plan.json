@@ -1,0 +1,1 @@
+{"filename": "builds/749994faa1df8ce2b1d6e194b927e571cae7092896d61e622e24822df072737b.zip", "runtime": "nodejs14.x", "artifacts_dir": "builds", "build_plan": [["zip", "./resources/profile-generator-lambda", null]]}

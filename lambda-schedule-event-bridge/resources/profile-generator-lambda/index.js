@@ -1,4 +1,4 @@
-const faker = require("faker/locale/en_IND");
+const faker = require("@faker-js/faker/locale/pt_BR");
 
 exports.handler = async (event, context) => {
   let firstName = faker.name.firstName();

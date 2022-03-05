@@ -1,10 +1,10 @@
-const faker = require("@faker-js/faker/locale/pt_BR");
+const { name, phone, vehicle } = require("@faker-js/faker/locale/pt_BR"); 
 
 exports.handler = async (event, context) => {
-  let firstName = faker.name.firstName();
-  let lastName = faker.name.lastName();
-  let phoneNumber = faker.phone.phoneNumber();
-  let vehicleType = faker.vehicle.vehicle();
+  let firstName = name.firstName();
+  let lastName = name.lastName();
+  let phoneNumber = phone.phoneNumber();
+  let vehicleType = vehicle.vehicle();
 
   let response = {
     firstName: firstName,
